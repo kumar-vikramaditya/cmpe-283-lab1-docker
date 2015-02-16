@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var mongo = require('mongodb');
 var monk = require('monk');
 
-var db = monk('172.17.0.6:8888/myDb');
+var db = monk('172.17.0.26:8888/myDb');
 
 
 var routes = require('./routes/index');
